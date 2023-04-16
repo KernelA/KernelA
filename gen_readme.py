@@ -76,18 +76,9 @@ def main(args):
     table_collection = TableCollection()
     load_static_tables(table_collection, args.md_static_data)
 
-    dump_file = "dump_repo.pickle"
+    repos = get_repos(target_user, exclusion_repo_list)
 
-    if os.path.isfile(dump_file):
-        with open(dump_file, "rb") as dump:
-            repos = pickle.load(dump)
-    else:
-        repos = get_repos(target_user, exclusion_repo_list)
-
-        with open(dump_file, "wb") as dump:
-            pickle.dump(repos, dump)
-
-    for repo in tqdm(repos.all_repos):
+    for repo in tqdm(repos.all_repos, mininterval=3):
         table_collection.add_table(Table.from_repo(repo, categories))
 
     render_readme(table_collection, args.template_name, args.out_file)
