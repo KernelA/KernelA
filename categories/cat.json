@@ -1,0 +1,41 @@
+{
+    "cat-1": {
+        "title": "XeLaTex"
+    },
+    "cat-2": {
+        "title": "3D ML"
+    },
+    "cat-3": {
+        "title": "Algorithms"
+    },
+    "cat-4": {
+        "title": "Tools"
+    },
+    "cat-5": {
+        "title": "ML NLP"
+    },
+    "cat-6": {
+        "title": "Computer graphics"
+    },
+    "cat-7": {
+        "title": "ML"
+    },
+    "cat-8": {
+        "title": "Google Drive tools"
+    },
+    "cat-9": {
+        "title": "MADE (Big data academy)"
+    },
+    "cat-10": {
+        "title": "MADE final project"
+    },
+    "cat-11": {
+        "title": "Education materials"
+    },
+    "cat-12": {
+        "title": "Explainable ML"
+    },
+    "unknown": {
+        "title": "Uncategorized"
+    }
+}

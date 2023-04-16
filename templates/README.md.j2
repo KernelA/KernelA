@@ -1,0 +1,8 @@
+# My projects
+{% import 'table.j2' as t_renderer %}
+{% for category, table  in table_collection.tables | dictsort %}
+    
+## {{ category }}
+
+{{ t_renderer.render_table(table) }}
+{% endfor %}
