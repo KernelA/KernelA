@@ -45,6 +45,13 @@
 | [egl-offscreen-render](https://github.com/KernelA/egl-offscreen-render) | OpenGL offscreen rendering with EGL and antialiasing | Python |
 
     
+## Explainable ML
+
+| Name | Description | Languages |
+|  --- | --- | --- | 
+| [image-cls](https://github.com/made-kdd-2021/image-cls) | Chest X-Ray Images (Pneumonia) classification: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia | Python |
+
+    
 ## Google Drive tools
 
 | Name | Description | Languages |
@@ -134,13 +141,6 @@
 |  --- | --- | --- | 
 | [cookiecutter-cmake](https://github.com/KernelA/cookiecutter-cmake) | Cookiecutter template for CMake projects. | CMake, C++ |
 | [cookiecutter-python](https://github.com/KernelA/cookiecutter-python) | Cookiecutter template for the Python | Python, Dockerfile |
-
-    
-## Uncategorized
-
-| Name | Description | Languages |
-|  --- | --- | --- | 
-| [image-cls](https://github.com/made-kdd-2021/image-cls) | Rentgen image classification | Python |
 
     
 ## XeLaTex
