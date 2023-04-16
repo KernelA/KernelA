@@ -1,0 +1,7 @@
+{% macro render_table(table) %}
+| {{ table.headers | join(' | ') }} |
+| {% for i in range(table.headers | length) %} --- |{% endfor %} 
+{% for row in table.rows %}
+| {{ row | join(' | ') }} |
+{% endfor %}
+{% endmacro %}
