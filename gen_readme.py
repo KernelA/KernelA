@@ -94,9 +94,9 @@ if __name__ == "__main__":
                         help="A path to static data")
     parser.add_argument("--cat_list", dest="cat_list", default="./categories/cat.json", type=str, required=False,
                         help="A path to json with categories info")
-    parser.add_argument("--template_name", dest="template_name", default="README.md.j2", type=str, required=False,
+    parser.add_argument("--template_name", dest="template_name", default="my_projects.md.j2", type=str, required=False,
                         help="A path to main Jinja template file")
-    parser.add_argument("--out_file", dest="out_file", default="./README.md", type=str, required=False,
+    parser.add_argument("--out_file", dest="out_file", default="./pages/my_projects.md", type=str, required=False,
                         help="A path to rendered file")
     parser.add_argument("--repo_filter_file", dest="repo_filter_file", default="./exclude_repos/exclusion_list.json", type=str, required=False,
                         help="A path to rendered file")
