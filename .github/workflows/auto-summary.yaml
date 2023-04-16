@@ -27,6 +27,8 @@ jobs:
             - run: pip install -r ./requirements.txt
 
             - name: Generate README
+              env:
+                GITHUB_TOKEN: ${{ secrets.API_TOKEN }}
               run: python ./gen_readme.py
 
             - uses: EndBug/add-and-commit@v9
