@@ -40,3 +40,4 @@ jobs:
                 add: ./README.md
                 message: 'Update summary'
                 default_author: github_actions
+                push: true
