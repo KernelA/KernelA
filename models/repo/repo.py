@@ -33,7 +33,7 @@ class Repository:
                           link=repo.html_url,
                           category=category,
                           is_filter=is_filter,
-                          languages=list(repo.get_languages().keys()))
+                          languages=sorted(repo.get_languages().keys()))
 
 
 @dataclass
