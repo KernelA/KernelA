@@ -79,7 +79,8 @@ def main(args):
     repos = get_repos(target_user, exclusion_repo_list)
 
     for repo in tqdm(repos.all_repos, mininterval=3):
-        table_collection.add_table(Table.from_repo(repo, categories))
+        for table in Table.from_repo(repo, categories):
+            table_collection.add_table(table)
 
     render_readme(table_collection, args.template_name, args.out_file)
 
