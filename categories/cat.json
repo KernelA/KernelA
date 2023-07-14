@@ -35,6 +35,9 @@
     "cat-12": {
         "title": "Explainable ML"
     },
+    "cat-13": {
+        "title": "RecSys"
+    },
     "unknown": {
         "title": "Uncategorized"
     }
