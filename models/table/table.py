@@ -74,19 +74,18 @@ class Table:
         self.rows.extend(other_table.rows)
 
     @staticmethod
-    def from_repo(repo: Repository, cat_collections: CategoryCollection):
-        title = cat_collections.get_title_by_id(repo.category)
-
-        return Table(
-            title,
-            ["Name", "Description", "Languages"],
-            [
+    def from_repo(repo: Repository, cat_collections: CategoryCollection) -> List["Table"]:
+        return [
+            Table(
+                cat_collections.get_title_by_id(category),
+                ["Name", "Description", "Languages"],
                 [
-                    f"[{repo.name}]({repo.link})",
-                    repo.desc,
-                    ", ".join(repo.languages)]
-            ]
-        )
+                    [
+                        f"[{repo.name}]({repo.link})",
+                        repo.desc,
+                        ", ".join(repo.languages)]
+                ]
+            ) for category in repo.categories]
 
 
 @dataclass
