@@ -37,7 +37,7 @@ jobs:
             - uses: EndBug/add-and-commit@v9
               if: github.ref == 'refs/heads/master'
               with:
-                add: ./README.md
+                add: 'README.md pages'
                 message: 'Update summary'
                 default_author: github_actions
                 push: true
