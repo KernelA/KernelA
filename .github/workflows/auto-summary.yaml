@@ -13,7 +13,7 @@ on:
             - develop
 
     schedule:
-      - cron: '0 0 25 * *'
+      - cron: '0 0 1 * *'
 
 jobs:
     compile-readme:
@@ -40,3 +40,4 @@ jobs:
                 add: ./README.md
                 message: 'Update summary'
                 default_author: github_actions
+                push: true
