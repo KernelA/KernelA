@@ -34,7 +34,15 @@
 
 | Name | Description | Languages |
 |  --- | --- | --- | 
+| [3D object calssification](https://medium.com/phygitalism/point-cloud-classification-b34ccbff0bb3) |  |  |
 | [3DML-Habr-paper](https://github.com/phygitalism/3DML-Habr-paper) | Code examples for series of learning articles | Python |
+| [Defect detection](https://medium.com/phygitalism/cv-in-industrial-defectoscopy-af7ae60243e6) |  |  |
+| [How to scan a person with RGB-D](https://medium.com/phygitalism/lessons-of-auschwitz-volumetricvr-2-1c2502323e4b) |  |  |
+| [Neural neytworks for 3D data](https://medium.com/phygitalism/3d-neural-networks-review-6a5908439d54) |  |  |
+| [Point cloud segmentation](https://medium.com/phygitalism/3d-semantic-segmentation-overview-9d6b6384eb04) |  |  |
+| [PyTriton](https://habr.com/ru/articles/764118/) | Triton inference server for Python | Python |
+| [RGB-D sensors](https://medium.com/phygitalism/rgb-d-sensors-room-scan-c0c70fbe1946) |  |  |
+| [XeLaTeX](https://habr.com/ru/articles/764596/) | XeLaTeX for bachelor's or master's thesis | TeX |
 
     
 ## Computer graphics
@@ -103,6 +111,8 @@
 | [darknet](https://github.com/KernelA/darknet) | YOLOv4 - Neural Networks for Object Detection (Windows and Linux version of Darknet ) | Batchfile, C, C#, C++, CMake, Cuda, Makefile, PowerShell, Python, Shell |
 | [face-alignment](https://github.com/KernelA/face-alignment) | :fire: 2D and 3D Face alignment library build using pytorch | Dockerfile, Python, Shell |
 | [Object-Detection-Metrics](https://github.com/KernelA/Object-Detection-Metrics) | Most popular metrics used to evaluate object detection algorithms. | Python |
+| [transfer-learning-img-classification](https://github.com/KernelA/transfer-learning-img-classification) |  | Jupyter Notebook, Python |
+| [yolo-video-detection-example](https://github.com/KernelA/yolo-video-detection-example) | YOLO V8 video detection inside TouchDesigner | Cython, Python |
 
     
 ## ML NLP
@@ -156,9 +166,10 @@
 
 | Name | Description | Languages |
 |  --- | --- | --- | 
-| [ECON](https://github.com/KernelA/ECON) | [CVPR'23, Highlight] ECON: Explicit Clothed humans Optimized via Normal integration | C, C++, Cuda, Cython, Python, Shell |
-| [modeldb](https://github.com/KernelA/modeldb) | Open Source ML Model Versioning, Metadata, and Experiment Management | CSS, Dockerfile, Go, HTML, Java, JavaScript, Makefile, Mustache, Python, Scala, Shell, TypeScript |
-| [yolo-video-detection-example](https://github.com/KernelA/yolo-video-detection-example) |  | Python |
+| [habr-pytriton-example](https://github.com/KernelA/habr-pytriton-example) |  | Dockerfile, Python |
+| [omfmi](https://github.com/phygitalism/omfmi) | Docker image with PyFMI and OpenModelica | Dockerfile |
+| [phyge](https://github.com/phygitalism/phyge) | Голосовой ассистент для эффективного поиска источников(ссылок на статьи) во время диалога/презентации. | Dockerfile, Jupyter Notebook, Python, Shell |
+| [RCVS](https://github.com/phygitalism/RCVS) | blender | Python, Rust |
 
     
 ## XeLaTex
