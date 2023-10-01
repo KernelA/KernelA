@@ -5,13 +5,13 @@
 | Name | Description | Languages |
 |  --- | --- | --- | 
 | [3-D-Scene-Graph](https://github.com/KernelA/3-D-Scene-Graph) | 3D scene graph generator implemented in Pytorch. | Python, Shell |
-| [FactorizableNet](https://github.com/KernelA/FactorizableNet) | Factorizable Net (Multi-GPU version): An Efficient Subgraph-based  Framework for Scene Graph Generation | Python, Cuda, C++, C, Shell, Makefile |
+| [FactorizableNet](https://github.com/KernelA/FactorizableNet) | Factorizable Net (Multi-GPU version): An Efficient Subgraph-based  Framework for Scene Graph Generation | C, C++, Cuda, Makefile, Python, Shell |
 | [ldgcnn](https://github.com/KernelA/ldgcnn) | Linked Dynamic Graph CNN: Learning through Point Cloud by Linking Hierarchical Features | Python, Shell |
 | [lidar-postgis-anal](https://github.com/KernelA/lidar-postgis-anal) | PostGIS with Plotly Dash to query and show lidar data | Python |
-| [made-ml-demo-app](https://github.com/KernelA/made-ml-demo-app) | Point cloud classification demo in BinderHub | Jupyter Notebook, HTML, Jinja, Python |
+| [made-ml-demo-app](https://github.com/KernelA/made-ml-demo-app) | Point cloud classification demo in BinderHub | HTML, Jinja, Jupyter Notebook, Python |
 | [made-ml-demo-app-model](https://github.com/KernelA/made-ml-demo-app-model) | 3D object classification simple demo | Python, Roff |
 | [pytorch-point-transformer](https://github.com/KernelA/pytorch-point-transformer) | Implementation of point transformer for point cloud classification and segmentation | Jupyter Notebook, Python |
-| [RandLA-Net](https://github.com/KernelA/RandLA-Net) | RandLA-Net in Tensorflow (CVPR 2020, Oral) | Python, C++ |
+| [RandLA-Net](https://github.com/KernelA/RandLA-Net) | RandLA-Net in Tensorflow (CVPR 2020, Oral) | C++, Python |
 | [azure-kinect-pcl](https://github.com/phygitalism/azure-kinect-pcl) | Point cloud segmentation with Azure Kinect | C++, CMake |
 | [cgal-plane-detector](https://github.com/phygitalism/cgal-plane-detector) | Plane detection with CGAL region growing algorithm | C++, CMake |
 
@@ -22,12 +22,12 @@
 |  --- | --- | --- | 
 | [3d-reconstruct](https://github.com/KernelA/3d-reconstruct) | Geometry Images: Cutting Algorithm Walkthrough + Rendering Walkthrough Using A Normal Map With Optional Culling | C++ |
 | [nsga3](https://github.com/KernelA/nsga3) | A python implementation of NSGA-3 | Python |
-| [cuda_voxelizer](https://github.com/KernelA/cuda_voxelizer) | Experimental CUDA voxelizer, to convert polygon meshes to annotated voxel grids. | C++, Cuda, C, CMake |
+| [cuda_voxelizer](https://github.com/KernelA/cuda_voxelizer) | Experimental CUDA voxelizer, to convert polygon meshes to annotated voxel grids. | C, C++, CMake, Cuda |
 | [eoptimization-library](https://github.com/KernelA/eoptimization-library) | The library for constrained optimization. Implemented three algorithms: Big bung - big crunch, Fireworks, Grenade explosion. | C# |
 | [nds](https://github.com/KernelA/nds) | A C# implementation of the non-dominated sorting. | C# |
 | [nds-py](https://github.com/KernelA/nds-py) | A Python implementation of the non-dominated sorting. | Python |
-| [cuda_voxelizer](https://github.com/phygitalism/cuda_voxelizer) | Experimental CUDA voxelizer, to convert polygon meshes to annotated voxel grids. | C++, Cuda, C, CMake |
-| [ZernikeMoments](https://github.com/phygitalism/ZernikeMoments) | Fork of '3D Zernike Descriptors' library from 3d research Uni-Bonn | C++, CSS, CMake |
+| [cuda_voxelizer](https://github.com/phygitalism/cuda_voxelizer) | Experimental CUDA voxelizer, to convert polygon meshes to annotated voxel grids. | C, C++, CMake, Cuda |
+| [ZernikeMoments](https://github.com/phygitalism/ZernikeMoments) | Fork of '3D Zernike Descriptors' library from 3d research Uni-Bonn | C++, CMake, CSS |
 
     
 ## Articles
@@ -41,7 +41,7 @@
 
 | Name | Description | Languages |
 |  --- | --- | --- | 
-| [AI4Animation](https://github.com/KernelA/AI4Animation) | Bringing Characters to Life with Computer Brains in Unity | C++, C#, HLSL, ShaderLab, Python, C, Smalltalk, CMake |
+| [AI4Animation](https://github.com/KernelA/AI4Animation) | Bringing Characters to Life with Computer Brains in Unity | C, C#, C++, CMake, HLSL, Python, ShaderLab, Smalltalk |
 | [egl-offscreen-render](https://github.com/KernelA/egl-offscreen-render) | OpenGL offscreen rendering with EGL and antialiasing | Python |
 
     
@@ -63,34 +63,35 @@
 
 | Name | Description | Languages |
 |  --- | --- | --- | 
+| [made-recsys-pub](https://github.com/KernelA/made-recsys-pub) | Item2Item and ALS recommendation system | Jupyter Notebook, Python |
 | [made-adv-ml-hw1](https://github.com/KernelA/made-adv-ml-hw1) | Linear regression with sampling | Jupyter Notebook |
 | [made-adv-ml-hw2](https://github.com/KernelA/made-adv-ml-hw2) | EM algorithm for user ranking | Jupyter Notebook, Python |
 | [made-adv-ml-hw3](https://github.com/KernelA/made-adv-ml-hw3) | Markov chain Monte Carlo for text decrypting and others | Jupyter Notebook, Python |
-| [made-bd-hw1](https://github.com/KernelA/made-bd-hw1) | Working with HDFS and MapReduce | Shell, Dockerfile, Python, Makefile, CSS |
+| [made-bd-hw1](https://github.com/KernelA/made-bd-hw1) | Working with HDFS and MapReduce | CSS, Dockerfile, Makefile, Python, Shell |
 | [made-bd-hw2](https://github.com/KernelA/made-bd-hw2) | SQL queries with Hive | Shell |
-| [made-bd-hw3](https://github.com/KernelA/made-bd-hw3) | Linear regression on Scala with pseudo-inverse of a matrix | Scala, Python |
-| [made-bd-hw4](https://github.com/KernelA/made-bd-hw4) | TD-IDF on Spark Dataframe API | Jupyter Notebook, Dockerfile |
+| [made-bd-hw3](https://github.com/KernelA/made-bd-hw3) | Linear regression on Scala with pseudo-inverse of a matrix | Python, Scala |
+| [made-bd-hw4](https://github.com/KernelA/made-bd-hw4) | TD-IDF on Spark Dataframe API | Dockerfile, Jupyter Notebook |
 | [made-bd-hw5](https://github.com/KernelA/made-bd-hw5) | Linear regression on Spark | Scala |
 | [made-bd-hw6](https://github.com/KernelA/made-bd-hw6) | Random Hyperplanes LSH as Spark Estimator | Scala |
 | [made-cv-comp-key-points](https://github.com/KernelA/made-cv-comp-key-points) | Kaggle competition: https://www.kaggle.com/c/made-cv-2021-contest-01-facial-landmarks/overview | Jupyter Notebook, Python |
 | [made-cv-comp-plates](https://github.com/KernelA/made-cv-comp-plates) | Kaggle competition: https://www.kaggle.com/competitions/made-cv-2021-contest-02-license-plate-recognition | Jupyter Notebook, Python |
-| [made-hpc-hw1](https://github.com/KernelA/made-hpc-hw1) | Prediction of performance with the Theta model of Assimakopoulos & Nikolopoulos | Jupyter Notebook, HTML, C, Python, CMake |
-| [made-hpc-hw2](https://github.com/KernelA/made-hpc-hw2) | A matrix multiplication with Strassen’s Algorithm | C++, CMake, Shell, Dockerfile |
+| [made-hpc-hw1](https://github.com/KernelA/made-hpc-hw1) | Prediction of performance with the Theta model of Assimakopoulos & Nikolopoulos | C, CMake, HTML, Jupyter Notebook, Python |
+| [made-hpc-hw2](https://github.com/KernelA/made-hpc-hw2) | A matrix multiplication with Strassen’s Algorithm | C++, CMake, Dockerfile, Shell |
 | [made-hpc-hw3](https://github.com/KernelA/made-hpc-hw3) | OpenMP | C, C++, CMake |
-| [made-hpc-hw4](https://github.com/KernelA/made-hpc-hw4) | PageRank | Jupyter Notebook, C++, CMake, Python |
+| [made-hpc-hw4](https://github.com/KernelA/made-hpc-hw4) | PageRank | C++, CMake, Jupyter Notebook, Python |
 | [made-hpc-hw5](https://github.com/KernelA/made-hpc-hw5) | MPI programs | C++, CMake, Python, Shell |
-| [made-hpc-hw6](https://github.com/KernelA/made-hpc-hw6) | CUDA: Median filter and blur | Cuda, C++, CMake |
-| [made-ml-prod2](https://github.com/KernelA/made-ml-prod2) | MLFlow dag and simple ML API | Jupyter Notebook, HTML, Python, Dockerfile, Smarty, Shell |
+| [made-hpc-hw6](https://github.com/KernelA/made-hpc-hw6) | CUDA: Median filter and blur | C++, CMake, Cuda |
+| [made-ml-prod2](https://github.com/KernelA/made-ml-prod2) | MLFlow dag and simple ML API | Dockerfile, HTML, Jupyter Notebook, Python, Shell, Smarty |
 | [made-rl-1](https://github.com/KernelA/made-rl-1) | Reinforcement learning algorithms: Q-learning and other | Jupyter Notebook, Python |
 | [made-rl-2](https://github.com/KernelA/made-rl-2) | Reinforcement learning algorithms: MCTS and other | Jupyter Notebook, Python |
-| [kernela](https://github.com/made-ml-in-prod-2021/kernela) |  | Jupyter Notebook, HTML, Python, Dockerfile, Smarty, Shell |
+| [kernela](https://github.com/made-ml-in-prod-2021/kernela) | MLOps samples: FastAPI, Airflow and Kubernetes | Dockerfile, HTML, Jupyter Notebook, Python, Shell, Smarty |
 
     
 ## MADE final project
 
 | Name | Description | Languages |
 |  --- | --- | --- | 
-| [data-collector](https://github.com/MADE-Telegram-map-project/data-collector) | Репозиторий для сбора данных | Python, Dockerfile, Shell |
+| [data-collector](https://github.com/MADE-Telegram-map-project/data-collector) | Репозиторий для сбора данных | Dockerfile, Python, Shell |
 
     
 ## ML
@@ -99,8 +100,8 @@
 |  --- | --- | --- | 
 | [AdaptiveWingLoss](https://github.com/KernelA/AdaptiveWingLoss) | [ICCV 2019] Adaptive Wing Loss for Robust Face Alignment via Heatmap Regression - Official Implementation | Python, Shell |
 | [CAST_pytorch](https://github.com/KernelA/CAST_pytorch) | Official implementation of the paper “Domain Enhanced Arbitrary Image Style Transfer via Contrastive Learning”（SIGGRAPH 2022） | Python |
-| [darknet](https://github.com/KernelA/darknet) | YOLOv4 - Neural Networks for Object Detection (Windows and Linux version of Darknet ) | C, Cuda, C++, Python, CMake, Batchfile, Shell, PowerShell, Makefile, C# |
-| [face-alignment](https://github.com/KernelA/face-alignment) | :fire: 2D and 3D Face alignment library build using pytorch | Python, Dockerfile, Shell |
+| [darknet](https://github.com/KernelA/darknet) | YOLOv4 - Neural Networks for Object Detection (Windows and Linux version of Darknet ) | Batchfile, C, C#, C++, CMake, Cuda, Makefile, PowerShell, Python, Shell |
+| [face-alignment](https://github.com/KernelA/face-alignment) | :fire: 2D and 3D Face alignment library build using pytorch | Dockerfile, Python, Shell |
 | [Object-Detection-Metrics](https://github.com/KernelA/Object-Detection-Metrics) | Most popular metrics used to evaluate object detection algorithms. | Python |
 
     
@@ -108,7 +109,7 @@
 
 | Name | Description | Languages |
 |  --- | --- | --- | 
-| [clip-text-search](https://github.com/KernelA/clip-text-search) | Search images by text input with CLIP | Jupyter Notebook, Python, Dockerfile, Jinja |
+| [clip-text-search](https://github.com/KernelA/clip-text-search) | Search images by text input with CLIP | Dockerfile, Jinja, Jupyter Notebook, Python |
 
     
 ## Other
@@ -117,6 +118,14 @@
 |  --- | --- | --- | 
 | [Stack Exchange data analysis](https://github.com/KernelA/se-analysis) | Data analysis of sample StackExchange data with ADO.NET and Python | C#, Python |
 | [xFormres build](https://github.com/phygitalism/xformers-build) | GitHub action to compile xFormres library for different GPUs | Python, CUDA, C++ |
+
+    
+## RecSys
+
+| Name | Description | Languages |
+|  --- | --- | --- | 
+| [education-recsys](https://github.com/KernelA/education-recsys) | ods.ai RecSys homework with some additions | Jupyter Notebook, Python |
+| [made-recsys-pub](https://github.com/KernelA/made-recsys-pub) | Item2Item and ALS recommendation system | Jupyter Notebook, Python |
 
     
 ## Test tasks created
@@ -139,8 +148,17 @@
 
 | Name | Description | Languages |
 |  --- | --- | --- | 
-| [cookiecutter-cmake](https://github.com/KernelA/cookiecutter-cmake) | Cookiecutter template for CMake projects. | CMake, C++ |
-| [cookiecutter-python](https://github.com/KernelA/cookiecutter-python) | Cookiecutter template for the Python | Python, Dockerfile |
+| [cookiecutter-cmake](https://github.com/KernelA/cookiecutter-cmake) | Cookiecutter template for CMake projects. | C++, CMake |
+| [cookiecutter-python](https://github.com/KernelA/cookiecutter-python) | Cookiecutter template for the Python | Dockerfile, Python |
+
+    
+## Uncategorized
+
+| Name | Description | Languages |
+|  --- | --- | --- | 
+| [ECON](https://github.com/KernelA/ECON) | [CVPR'23, Highlight] ECON: Explicit Clothed humans Optimized via Normal integration | C, C++, Cuda, Cython, Python, Shell |
+| [modeldb](https://github.com/KernelA/modeldb) | Open Source ML Model Versioning, Metadata, and Experiment Management | CSS, Dockerfile, Go, HTML, Java, JavaScript, Makefile, Mustache, Python, Scala, Shell, TypeScript |
+| [yolo-video-detection-example](https://github.com/KernelA/yolo-video-detection-example) |  | Python |
 
     
 ## XeLaTex
