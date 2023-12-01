@@ -166,8 +166,10 @@
 
 | Name | Description | Languages |
 |  --- | --- | --- | 
+| [habr-dvc-hydra-exp](https://github.com/KernelA/habr-dvc-hydra-exp) |  | Python |
 | [habr-pytriton-example](https://github.com/KernelA/habr-pytriton-example) |  | Dockerfile, Python |
 | [libpointmatcher](https://github.com/KernelA/libpointmatcher) | An Iterative Closest Point (ICP) library for 2D and 3D mapping in Robotics | C, C++, CMake, Jupyter Notebook, Python, Shell |
+| [recsys-metrics-polars](https://github.com/KernelA/recsys-metrics-polars) |  | Python |
 | [omfmi](https://github.com/phygitalism/omfmi) | Docker image with PyFMI and OpenModelica | Dockerfile |
 | [phyge](https://github.com/phygitalism/phyge) | Голосовой ассистент для эффективного поиска источников(ссылок на статьи) во время диалога/презентации. | Dockerfile, Jupyter Notebook, Python, Shell |
 
