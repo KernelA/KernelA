@@ -23,5 +23,9 @@
     "KernelA/cps-researcher-test": {},
     "KernelA/ai-lab-test": {},
     "KernelA/nsga3": {},
-    "KernelA/3d-reconstruct": {}
+    "KernelA/3d-reconstruct": {},
+    "phygitalism/omfmi": {},
+    "phygitalism/phyge": {},
+    "KernelA/dpq-embedding-compression-torch": {},
+    "KernelA/python-semantic-release": {}
 }
